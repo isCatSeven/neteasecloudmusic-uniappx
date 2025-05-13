@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "description": "多选组件，用于在多个选项中选择多个。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 'p')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "checked",
+      "description": "是否选中 (默认 false)",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "value",
+      "description": "绑定的值",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "iconName",
+      "description": "图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "选中时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "未选中时的颜色 (默认 \"#909399\")",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"#909399\"\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "多选样式 (默认 'checkbox')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'radio'\r\n\t\t\t}"
+    }
+  ]
+}

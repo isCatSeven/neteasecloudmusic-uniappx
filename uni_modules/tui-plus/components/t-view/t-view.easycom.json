@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "用于创建视图的组件，统一处理Web端和移动端的触摸事件。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "description": "单选组，支持多种配置，包括文本类型、对齐方式、格式化、图标等。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "description": "- 绑定的值，支持v-model",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "- 选中时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "- 未选中时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"#909399\"\r\n\t\t\t}"
+    },
+    {
+      "name": "childClass",
+      "description": "- 子元素的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "iconName",
+      "description": "- 图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "- 组件类型，可选值为 'p'（默认）或其他自定义类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "- 单选样式，可选值为 'radio'（默认）、'button'、'cell'、'tag'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'radio'\r\n\t\t\t}"
+    }
+  ]
+}

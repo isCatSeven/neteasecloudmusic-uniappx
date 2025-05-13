@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "description": "Tag 标签组件，用于创建一个标签，支持配置标签名称、是否可关闭、鼠标悬停效果、标签效果、标签尺寸、关闭按钮类名等。",
+  "attributes": [
+    {
+      "name": "[event]close",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "name",
+      "description": "标签名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "closable",
+      "description": "是否可关闭",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "hover",
+      "description": "鼠标悬停效果",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "effect",
+      "description": "标签效果",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'plain'\r\n\t\t\t}"
+    },
+    {
+      "name": "size",
+      "description": "标签尺寸",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'mini'\r\n\t\t\t}"
+    },
+    {
+      "name": "closeClass",
+      "description": "关闭按钮类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "labelClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

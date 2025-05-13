@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "WatermarkPlus 水印组件升级版，用于在页面上添加更高级的水印效果，支持配置水印的角度、水平间距、垂直间距等。",
+  "attributes": [
+    {
+      "name": "angle",
+      "description": "水印的角度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: -45\r\n\t\t\t}"
+    },
+    {
+      "name": "xSpace",
+      "description": "水印之间的水平间距",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 100\r\n\t\t\t}"
+    },
+    {
+      "name": "ySpace",
+      "description": "水印之间的垂直间距",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 80\r\n\t\t\t}"
+    }
+  ]
+}

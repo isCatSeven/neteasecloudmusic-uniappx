@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "description": "用于显示一组头像的组件，支持配置最大显示数量、形状、子元素类名和间隙。",
+  "attributes": [
+    {
+      "name": "maxCount",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 5\r\n\t\t\t}"
+    },
+    {
+      "name": "shape",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'circle'\r\n\t\t\t}"
+    },
+    {
+      "name": "childClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "gap",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0.5\r\n\t\t\t}"
+    }
+  ]
+}

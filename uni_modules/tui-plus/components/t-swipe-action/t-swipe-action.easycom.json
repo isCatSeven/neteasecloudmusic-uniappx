@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "左滑操作栏组件，用于创建一个可滑动的操作栏，支持配置操作项的值等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "value",
+      "description": "操作项的值",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<template>
+	<image v-bind="$attrs"></image>
+</template>
+

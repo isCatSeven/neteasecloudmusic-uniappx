@@ -1,0 +1,43 @@
+{
+  "name": "",
+  "description": "用于显示空状态或无数据情况的组件，可以自定义图片、标题、描述等。",
+  "attributes": [
+    {
+      "name": "isFixedfalse",
+      "description": "是否固定",
+      "type": "Boolean"
+    },
+    {
+      "name": "mode",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'order'\r\n\t\t\t}"
+    },
+    {
+      "name": "src",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "imageClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "title",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "titleClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "descr",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "descrClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "isFixed",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

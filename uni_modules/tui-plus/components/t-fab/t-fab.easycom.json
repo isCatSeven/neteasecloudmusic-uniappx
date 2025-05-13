@@ -1,0 +1,70 @@
+{
+  "name": "",
+  "description": "用于创建浮动按钮的组件，支持自定义位置、大小、旋转角度等。",
+  "attributes": [
+    {
+      "name": "valuefalse",
+      "description": "按钮的值",
+      "type": "Boolean"
+    },
+    {
+      "name": "zIndex100",
+      "description": "z-index值",
+      "type": "Number"
+    },
+    {
+      "name": "startRtateDeg0",
+      "description": "起始旋转角度",
+      "type": "Number"
+    },
+    {
+      "name": "rotateDeg60",
+      "description": "旋转角度",
+      "type": "Number"
+    },
+    {
+      "name": "menuSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '80rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "left",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "right",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "bottom",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "top",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "value",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "direction",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'row-top'\r\n\t\t\t}"
+    },
+    {
+      "name": "spacing",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '20rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "zIndex",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 100\r\n\t\t\t}"
+    },
+    {
+      "name": "startRtateDeg",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "rotateDeg",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 60\r\n\t\t\t}"
+    }
+  ]
+}

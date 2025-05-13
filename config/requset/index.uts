@@ -1,0 +1,123 @@
+interface RequestOptions {
+	url: string
+	method?: 'GET' | 'POST' | 'PUT' | 'DELETE'
+	data?: any
+	header?: UTSJSONObject
+	timeout?: number
+}
+
+interface ResponseData<T = any> {
+	code: number
+	data: T
+	message: string
+}
+
+export class Request {
+	private static baseURL: string = 'http://neteasecloudmusicapi.catseven.site'
+	private static timeout: number = 10000 // 默认超时时间10秒
+
+	// 请求拦截器
+	private static requestInterceptor(options: RequestOptions): RequestOptions {
+		// 添加token等通用header
+		const token = uni.getStorageSync('token')
+		if (token) {
+			options.header = {
+				...options.header,
+				'Authorization': `Bearer ${token}`
+			}
+		}
+		return options
+	}
+
+	// 响应拦截器
+	private static responseInterceptor(response: RequestSuccess<unknown>): any {
+		if (response.statusCode === 200) {
+			// return response.data
+		} else if (response.statusCode === 401) {
+			// // token过期处理
+			// uni.removeStorageSync('token')
+			// uni.navigateTo({
+			// 	url: '/pages/login/login'
+			// })
+			// return Promise.reject(new Error('未授权，请重新登录'))
+		} else {
+			// return Promise.reject(new Error(response.data.message || '请求失败'))
+		}
+	}
+
+	// 错误处理
+	private static errorHandler(error: any): void {
+		// uni.showToast({
+		// 	title: error.message || '网络错误',
+		// 	icon: 'none',
+		// 	duration: 2000
+		// })
+	}
+
+	// 发起请求
+	private static request<T>(options: RequestOptions): Promise<T> {
+		options = this.requestInterceptor(options)
+		return new Promise((resolve, reject) => {
+			uni.request({
+				url: this.baseURL + options.url,
+				method: options.method || 'GET',
+				data: options.data,
+				header: options.header,
+				timeout: options.timeout || this.timeout,
+				success: (res) => {
+					try {
+						const data = this.responseInterceptor(res)
+						resolve(data as T)
+					} catch (error) {
+						this.errorHandler(error)
+						reject(error)
+					}
+				},
+				fail: (error) => {
+					this.errorHandler(error)
+					reject(error)
+				}
+			})
+		})
+	}
+
+	// GET请求
+	public static get<T>(url: string, data?: any, options?: RequestOptions): Promise<T> {
+		return this.request<T>({
+			url,
+			method: 'GET',
+			data,
+			...options
+		})
+	}
+
+	// POST请求
+	public static post<T>(url: string, data?: any, options?: RequestOptions): Promise<T> {
+		return this.request<T>({
+			url,
+			method: 'POST',
+			data,
+			...options
+		})
+	}
+
+	// PUT请求
+	public static put<T>(url: string, data?: any, options?: RequestOptions): Promise<T> {
+		return this.request<T>({
+			url,
+			method: 'PUT',
+			data,
+			...options
+		})
+	}
+
+	// DELETE请求
+	public static delete<T>(url: string, data?: any, options?: RequestOptions): Promise<T> {
+		return this.request<T>({
+			url,
+			method: 'DELETE',
+			data,
+			...options
+		})
+	}
+}

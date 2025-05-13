@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "手势",
+  "attributes": [
+    {
+      "name": "[event]tuiTouchstart",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]tuiTouchmove",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]tuiTouchend",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]tuiTouchcancel",
+      "description": "",
+      "type": "Event"
+    }
+  ]
+}

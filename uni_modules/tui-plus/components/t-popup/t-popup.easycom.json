@@ -1,0 +1,63 @@
+{
+  "name": "",
+  "description": "用于显示弹出层的组件，支持多种配置，包括显示状态、过渡效果、持续时间、方向和内容类名等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]close",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "direction",
+      "description": "弹出层的方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'left'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "transition",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 200\r\n\t\t\t}"
+    },
+    {
+      "name": "contentClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "closeable",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "maskClose",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "showFooter",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "maskOpacity",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0.4\r\n\t\t\t}"
+    }
+  ]
+}

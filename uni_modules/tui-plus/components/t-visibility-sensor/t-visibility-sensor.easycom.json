@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "VisibilitySensor 元素监听组件，用于监听元素是否在视口中可见，支持配置标记等。",
+  "attributes": [
+    {
+      "name": "mark",
+      "description": "标记",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    }
+  ]
+}

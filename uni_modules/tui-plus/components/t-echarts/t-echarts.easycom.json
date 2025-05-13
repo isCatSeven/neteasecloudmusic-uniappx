@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "description": "用于展示ECharts图表的组件，支持自定义样式、滚动行为、点击事件等。",
+  "attributes": [
+    {
+      "name": "[event]finished",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "webviewStyles",
+      "type": "{\r\n\t\t\ttype: Object\r\n\t\t}"
+    },
+    {
+      "name": "customStyle",
+      "type": "{\r\n\t\t\ttype: Object\r\n\t\t}"
+    },
+    {
+      "name": "isDisableScroll",
+      "type": "{\r\n\t\t\ttype: Boolean,\r\n\t\t\tdefault: false\r\n\t\t}"
+    },
+    {
+      "name": "isClickable",
+      "type": "{\r\n\t\t\ttype: Boolean,\r\n\t\t\tdefault: true\r\n\t\t}"
+    },
+    {
+      "name": "enableHover",
+      "type": "{\r\n\t\t\ttype: Boolean,\r\n\t\t\tdefault: false\r\n\t\t}"
+    },
+    {
+      "name": "beforeDelay",
+      "type": "{\r\n\t\t\ttype: Number,\r\n\t\t\tdefault: 30\r\n\t\t}"
+    }
+  ]
+}

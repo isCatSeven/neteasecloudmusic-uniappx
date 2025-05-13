@@ -1,0 +1,5 @@
+<template>
+	<list-view v-bind="$attrs" :refresher-enabled="false">
+		<slot></slot>
+	</list-view>
+</template>

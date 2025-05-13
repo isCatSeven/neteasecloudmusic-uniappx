@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "分组组件，用于将相关的内容组织在一起，支持配置标题、标题类名、内容类名和边框显示等。",
+  "attributes": [
+    {
+      "name": "title",
+      "description": "分组标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "titleClass",
+      "description": "分组标题的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "contentClass",
+      "description": "分组内容的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "是否显示分组边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    }
+  ]
+}

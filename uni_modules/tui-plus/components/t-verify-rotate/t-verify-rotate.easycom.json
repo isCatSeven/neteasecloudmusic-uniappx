@@ -1,0 +1,56 @@
+{
+  "name": "",
+  "description": "VerifyRotate 旋转验证，用于创建一个旋转验证的交互组件，支持配置验证图片的来源、组件类型、标题、标签、验证成功标题、激活状态下的滑块图标、非激活状态下的滑块图标、激活颜色、非激活颜色、验证范围等。",
+  "attributes": [
+    {
+      "name": "src",
+      "description": "验证图片的来源",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "组件类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "title",
+      "description": "标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '安全验证'\r\n\t\t\t}"
+    },
+    {
+      "name": "lable",
+      "description": "标签",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '拖动滑块至图片正确的角度'\r\n\t\t\t}"
+    },
+    {
+      "name": "successTitle",
+      "description": "验证成功标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '验证成功'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeBarIcon",
+      "description": "激活状态下的滑块图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'checkmark-circle-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveBarIcon",
+      "description": "非激活状态下的滑块图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-right-double'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "非激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#eeeeee'\r\n\t\t\t}"
+    },
+    {
+      "name": "verifyRange",
+      "description": "验证范围",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 10\r\n\t\t\t}"
+    }
+  ]
+}

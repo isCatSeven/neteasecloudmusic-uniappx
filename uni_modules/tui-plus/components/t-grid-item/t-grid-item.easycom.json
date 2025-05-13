@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "网格项组件，用于在网格布局中定义单个项，支持配置图标、图标类名、标签文本和标签类名等。",
+  "attributes": [
+    {
+      "name": "icon",
+      "description": "图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'photo'\r\n\t\t\t}"
+    },
+    {
+      "name": "iconClass",
+      "description": "图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 's.70'\r\n\t\t\t}"
+    },
+    {
+      "name": "label",
+      "description": "标签文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "labelClass",
+      "description": "标签的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    }
+  ]
+}

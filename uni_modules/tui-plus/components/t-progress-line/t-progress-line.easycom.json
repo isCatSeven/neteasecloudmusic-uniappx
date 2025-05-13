@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "线型进度条组件，用于显示线性进度，支持配置进度百分比、是否显示百分比文本、激活和未激活颜色等。",
+  "attributes": [
+    {
+      "name": "percent",
+      "description": "进度条的当前百分比",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "showPercentage",
+      "description": "是否显示进度百分比文本",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "进度条激活时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "进度条未激活时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#ececec'\r\n\t\t\t}"
+    }
+  ]
+}

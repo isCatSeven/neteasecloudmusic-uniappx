@@ -1,0 +1,3 @@
+<template>
+	<view v-bind="$attrs"><slot></slot></view>
+</template>

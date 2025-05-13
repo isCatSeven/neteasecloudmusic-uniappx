@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "索引导航子组件，用于显示索引列表，支持配置索引数据列表。",
+  "attributes": [
+    {
+      "name": "list",
+      "description": "索引数据列表",
+      "type": "UTSJSONObject[]"
+    }
+  ]
+}

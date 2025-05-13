@@ -1,0 +1,99 @@
+{
+  "name": "",
+  "description": "搜索组件用于在数据集中查找特定的项。",
+  "attributes": [
+    {
+      "name": "[event]search",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]prefixClick",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "width",
+      "description": "组件宽度 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "height",
+      "description": "组件高度 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "margin",
+      "description": "外边距 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "padding",
+      "description": "内边距 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "radius",
+      "description": "圆角 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "sty",
+      "description": "自定义样式类 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "customStyle",
+      "description": "自定义样式 (默认 {})",
+      "type": "Object"
+    },
+    {
+      "name": "backgroundColor",
+      "description": "背景颜色 (默认 '')",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用组件 (默认 false)",
+      "type": "Boolean"
+    },
+    {
+      "name": "stop",
+      "description": "是否阻止事件冒泡 (默认 false)",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有悬浮效果 (默认 false)",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "特殊效果 (默认 'normal')",
+      "type": "String"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "modelValue",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "buttonText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '搜索'\r\n\t\t\t}"
+    }
+  ]
+}

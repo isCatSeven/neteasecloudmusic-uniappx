@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "description": "用于页面底部的组件，可以自定义导航项、文本类名和是否固定在底部。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "isFixedfalse",
+      "description": "是否固定在底部",
+      "type": "Boolean"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "navigate",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<UTSJSONObject[]>,\r\n\t\t\t\tdefault: () : UTSJSONObject[] => [] as UTSJSONObject[]\r\n\t\t\t}"
+    },
+    {
+      "name": "textClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "isFixed",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

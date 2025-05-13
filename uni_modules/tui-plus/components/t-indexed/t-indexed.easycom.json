@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "索引导航组件，用于显示索引列表，支持配置索引数据列表。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "list",
+      "description": "索引数据列表",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<UTSJSONObject[]>,\r\n\t\t\t\tdefault: () : UTSJSONObject[] => [] as UTSJSONObject[]\r\n\t\t\t}"
+    }
+  ]
+}

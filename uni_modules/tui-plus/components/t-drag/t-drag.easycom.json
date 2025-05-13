@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "拖拽元素盒子",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    }
+  ]
+}

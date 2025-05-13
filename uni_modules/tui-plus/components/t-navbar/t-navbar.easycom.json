@@ -1,0 +1,91 @@
+{
+  "name": "",
+  "description": "NavBar 导航",
+  "attributes": [
+    {
+      "name": "[event]rightClick",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]leftClick",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "title",
+      "description": "- 组件的标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "showBack",
+      "description": "- 是否显示返回按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "safeAreaInsetTop",
+      "description": "- 是否在顶部使用安全区域嵌入",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "placeholder",
+      "description": "- 是否占位防止塌陷",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "fixed",
+      "description": "- 组件是否固定位置",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "- 是否显示边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "autoBack",
+      "description": "- 是否自动处理返回动作",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "backViewClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "backIconClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "backTextClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightViewClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIconClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightTextClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "backIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-left'\r\n\t\t\t}"
+    },
+    {
+      "name": "backText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

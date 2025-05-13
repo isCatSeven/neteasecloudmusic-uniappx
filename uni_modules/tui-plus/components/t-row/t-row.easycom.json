@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "description": "水平布局",
+  "attributes": [
+    {
+      "name": "hover",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

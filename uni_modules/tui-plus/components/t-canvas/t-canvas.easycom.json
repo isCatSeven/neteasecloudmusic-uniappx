@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "用于绘制和操作图形的画布组件，提供将画布内容转换为DataURL的异步方法。",
+  "attributes": [
+    {
+      "name": "[event]initFinished",
+      "description": "",
+      "type": "Event"
+    }
+  ]
+}

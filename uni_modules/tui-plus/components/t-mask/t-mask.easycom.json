@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "用于创建遮罩层的组件，支持自定义背景颜色、层级、过渡效果以及持续时间。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "description": "- 绑定的值，支持v-model，用于控制遮罩层的显示与隐藏（默认为false）",
+      "type": "Boolean"
+    },
+    {
+      "name": "transition",
+      "description": "- 是否启用过渡效果（默认为true）",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "description": "- 过渡效果的持续时间，单位为毫秒（默认为500）",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 500\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "",
+  "description": "用于创建表单布局和表单验证的组件。",
+  "attributes": [
+    {
+      "name": "[event]reset",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "direction",
+      "description": "表单布局方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'row'\r\n\t\t\t}"
+    },
+    {
+      "name": "rules",
+      "description": "表单验证规则",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<UTSJSONObject>,\r\n\t\t\t\tdefault: () : UTSJSONObject => ({} as UTSJSONObject)\r\n\t\t\t}"
+    },
+    {
+      "name": "rulesClass",
+      "description": "规则验证的普通样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "childLabelClass",
+      "description": "子项标签的样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "childClass",
+      "description": "子项的样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "hideRequiredAsterisk",
+      "description": "是否隐藏必填星号",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "showMessage",
+      "description": "是否显示验证信息",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "bottomLine",
+      "description": "是否显示底部线条",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "childLabelTextClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

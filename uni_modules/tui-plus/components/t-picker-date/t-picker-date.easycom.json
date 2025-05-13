@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "description": "日期选择器组件，用于选择日期和时间，支持配置类型、模式、日期范围、格式化模式和初始值等。",
+  "attributes": [
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "选择器类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "选择器模式，包括年、月、日、时、分、秒",
+      "type": "{\r\n\t\t\t\ttype: Array as Array<string>,\r\n\t\t\t\tdefault: () : Array<string> => ['year', 'month', 'day', 'hour', 'minute', 'second'] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "range",
+      "description": "日期范围",
+      "type": "{\r\n\t\t\t\ttype: Object as TuipickerDateRange,\r\n\t\t\t\tdefault: () : TuipickerDateRange => {\r\n\t\t\t\t\treturn {} as TuipickerDateRange\r\n\t\t\t\t}\r\n\t\t\t}"
+    },
+    {
+      "name": "format",
+      "description": "日期格式化模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'yyyy-mm-dd hh:MM:ss'\r\n\t\t\t}"
+    },
+    {
+      "name": "value",
+      "description": "初始日期值",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

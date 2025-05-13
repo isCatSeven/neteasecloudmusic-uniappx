@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "吸顶组件，用于创建一个在滚动时可以固定在顶部的内容块，支持配置吸顶元素的ID、层叠顺序、吸顶位置等。",
+  "attributes": [
+    {
+      "name": "insId",
+      "description": "吸顶元素的ID",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "zIndex",
+      "description": "层叠顺序",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 88\r\n\t\t\t}"
+    },
+    {
+      "name": "stickyTop",
+      "description": "吸顶位置，默认为0",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0'\r\n\t\t\t}"
+    }
+  ]
+}

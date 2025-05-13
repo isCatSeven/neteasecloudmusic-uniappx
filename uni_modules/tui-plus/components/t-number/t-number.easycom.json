@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "数字组件，用于显示自定义字体数字",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "mode",
+      "description": "数字模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'dig'\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<template>
+	<scroll-view v-bind="$attrs">
+		<slot></slot>
+	</scroll-view>
+</template>

@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "description": "根据当前缩放比例、旋转角度和位移重新绘制图片",
+  "attributes": [
+    {
+      "name": "src",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

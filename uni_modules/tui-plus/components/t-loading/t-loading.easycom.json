@@ -1,0 +1,59 @@
+{
+  "name": "",
+  "description": "用于显示图标的组件，支持自定义图标名称。",
+  "attributes": [
+    {
+      "name": "name",
+      "description": "图标名称 (默认 'photo')",
+      "type": "String"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "mode",
+      "description": "图标模式 (默认 'icon')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'draw'\r\n\t\t\t}"
+    },
+    {
+      "name": "icon",
+      "description": "图标名称 (默认 'reload')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'reload'\r\n\t\t\t}"
+    },
+    {
+      "name": "speed",
+      "description": "图标旋转速度 (默认 24)",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 24\r\n\t\t\t}"
+    },
+    {
+      "name": "autoPlay",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "spinnerClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

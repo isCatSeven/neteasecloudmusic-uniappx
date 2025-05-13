@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "description": "车牌号键盘组件，用于输入车牌号，支持配置键盘类型、模式、初始值、激活和未激活颜色等，并监听输入和后退事件。",
+  "attributes": [
+    {
+      "name": "[event]input",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]back",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "键盘类型",
+      "type": "String"
+    },
+    {
+      "name": "value",
+      "description": "键盘初始值",
+      "type": "Array<string>"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "键盘未激活时的颜色",
+      "type": "String"
+    },
+    {
+      "name": "activeColor",
+      "description": "键盘激活时的颜色",
+      "type": "String"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "description": "滚动数字组件，用于显示数字的滚动动画，支持配置滚动模式、开始数值、目标数值、动画持续时间、是否自动播放、小数位数等。",
+  "attributes": [
+    {
+      "name": "mode",
+      "description": "滚动模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "startVal",
+      "description": "开始的数值",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1000\r\n\t\t\t}"
+    },
+    {
+      "name": "endVal",
+      "description": "要滚动的目标数值",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 2000\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "description": "滚动到目标数值的动画持续时间，单位为毫秒（ms）",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 500\r\n\t\t\t}"
+    },
+    {
+      "name": "autoplay",
+      "description": "设置数值后是否自动开始滚动",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "decimals",
+      "description": "小数位数",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "description": "用于实现卡片滑动的组件，支持自定义宽度、高度、间距和缩放比例。",
+  "attributes": [
+    {
+      "name": "width",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"700rpx\"\r\n\t\t\t}"
+    },
+    {
+      "name": "height",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"750rpx\"\r\n\t\t\t}"
+    },
+    {
+      "name": "space",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"30rpx\"\r\n\t\t\t}"
+    },
+    {
+      "name": "scaleNumber",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0.05\r\n\t\t\t}"
+    }
+  ]
+}

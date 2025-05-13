@@ -1,0 +1,86 @@
+{
+  "name": "",
+  "description": "用于在指定范围内选择数值的滑动输入控件。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "滑块类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "direction",
+      "description": "滑块方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'horizontal',\r\n\t\t\t}"
+    },
+    {
+      "name": "min",
+      "description": "最小值",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0,\r\n\t\t\t}"
+    },
+    {
+      "name": "max",
+      "description": "最大值",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 100,\r\n\t\t\t}"
+    },
+    {
+      "name": "modelValue",
+      "description": "双滑块模式下的绑定值",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<number>>,\r\n\t\t\t\tdefault: () : number[] => {\r\n\t\t\t\t\treturn [] as number[]\r\n\t\t\t\t}\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "已选择的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "未选择的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "blockSize",
+      "description": "滑块按钮大小",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '50',\r\n\t\t\t}"
+    },
+    {
+      "name": "fontSize",
+      "description": "滑块数值字体大小",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '28rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "showValue",
+      "description": "是否显示滑块数值",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "showValuePosition",
+      "description": "滑块数值显示位置",
+      "type": "{ //显示百分比\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "decimalPlaces",
+      "description": "滑块数值的小数位数",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0, // 默认保留两位小数\r\n\t\t\t}"
+    },
+    {
+      "name": "trackSize",
+      "description": "滑块轨道的尺寸",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '5'\r\n\t\t\t}"
+    },
+    {
+      "name": "showMode",
+      "description": "滑块数值的显示模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'before'\r\n\t\t\t}"
+    }
+  ]
+}

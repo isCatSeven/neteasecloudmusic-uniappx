@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "description": "表单中的子组件，用于包裹表单元素并应用验证规则。",
+  "attributes": [
+    {
+      "name": "direction",
+      "description": "布局方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prop",
+      "description": "表单域的字段名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "label",
+      "description": "标签文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "required",
+      "description": "是否必填",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "rules",
+      "description": "验证规则",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<any>>,\r\n\t\t\t\tdefault: () : Array<any> => [] as Array<any>\r\n\t\t\t}"
+    },
+    {
+      "name": "showMessage",
+      "description": "是否显示校验信息",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "labelClass",
+      "description": "标签的样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "labelTextClass",
+      "description": "标签文本的样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rulesClass",
+      "description": "验证规则的样式类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

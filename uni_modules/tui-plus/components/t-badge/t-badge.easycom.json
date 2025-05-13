@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "用于显示数量或状态的徽标组件，支持多种配置，包括尺寸、是否显示圆点、最大值显示等。",
+  "attributes": [
+    {
+      "name": "size",
+      "description": "- 徽标的尺寸，支持 'large'、'medium'、'small'、'mini'，默认为 'mini'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'mini'\r\n\t\t\t}"
+    },
+    {
+      "name": "isDot",
+      "description": "- 是否显示为圆点，默认为 false",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "max",
+      "description": "- 显示的最大数值，默认为 99",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 99\r\n\t\t\t}"
+    },
+    {
+      "name": "showZero",
+      "description": "- 数量为0时是否显示徽标，默认为 false",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "numberType",
+      "description": "- 数值显示类型，支持 'overflow'、'ellipsis'、'limit' 等，默认为 'overflow'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'overflow'\r\n\t\t\t}"
+    }
+  ]
+}

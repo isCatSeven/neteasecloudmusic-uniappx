@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "description": "用于显示操作菜单的组件，包含标题和按钮文本。",
+  "attributes": [
+    {
+      "name": "title",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '标题'\r\n\t\t\t}"
+    },
+    {
+      "name": "buttonText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '取消'\r\n\t\t\t}"
+    }
+  ]
+}

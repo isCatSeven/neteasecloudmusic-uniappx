@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "description": "用于快速返回页面顶部的组件，支持配置大小、悬停效果、类型、动画持续时间、偏移量和图标。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "size",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'l'\r\n\t\t\t}"
+    },
+    {
+      "name": "hover",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 650\r\n\t\t\t}"
+    },
+    {
+      "name": "offset",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 400\r\n\t\t\t}"
+    },
+    {
+      "name": "icon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"rocketline\"\r\n\t\t\t}"
+    },
+    {
+      "name": "iconClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    }
+  ]
+}

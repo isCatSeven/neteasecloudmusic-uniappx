@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "description": "用于显示和选择颜色的组件，可以自定义颜色值和面板类型。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "value",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#FFFFFF'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    }
+  ]
+}

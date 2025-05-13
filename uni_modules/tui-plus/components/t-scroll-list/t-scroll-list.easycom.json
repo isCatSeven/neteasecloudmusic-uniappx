@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "滑动列表组件，用于提供可滑动的列表视图，支持配置列表类型、是否显示指示器、指示器类名等。",
+  "attributes": [
+    {
+      "name": "type",
+      "description": "列表类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "indicator",
+      "description": "是否显示指示器",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "indicatorClass",
+      "description": "指示器的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "indicatorBarClass",
+      "description": "指示器条形的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

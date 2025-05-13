@@ -1,0 +1,50 @@
+{
+  "name": "",
+  "description": "用于显示验证码倒计时的组件，支持配置边框、大小、倒计时总秒数、不同状态下的提示文本。",
+  "attributes": [
+    {
+      "name": "[event]start",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]end",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "border",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "size",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'mini'\r\n\t\t\t}"
+    },
+    {
+      "name": "seconds",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 60\r\n\t\t\t}"
+    },
+    {
+      "name": "startText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '获取验证码'\r\n\t\t\t}"
+    },
+    {
+      "name": "changeText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'S后重新获取'\r\n\t\t\t}"
+    },
+    {
+      "name": "endText",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '重新获取'\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "\"展开更多\"组件，用于显示可展开和收起的文本内容，支持配置是否显示展开/收起按钮、展开和收起的提示文字、是否显示阴影等。",
+  "attributes": [
+    {
+      "name": "toggle",
+      "description": "是否显示\"收起\"按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "closeText",
+      "description": "关闭时的提示文字",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '展开阅读全文'\r\n\t\t\t}"
+    },
+    {
+      "name": "openText",
+      "description": "展开时的提示文字",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '收起'\r\n\t\t\t}"
+    },
+    {
+      "name": "shadow",
+      "description": "是否显示阴影",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "shadowStyle",
+      "description": "阴影的样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0.3))'\r\n\t\t\t}"
+    }
+  ]
+}

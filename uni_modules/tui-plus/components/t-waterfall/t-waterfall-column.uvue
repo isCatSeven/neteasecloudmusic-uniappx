@@ -1,0 +1,25 @@
+<script>
+	import { TuiView } from '../../widgets/views/View.uts'
+	export default {
+		render() : VNode {
+			const view = new TuiView()
+			view.class='mt.30'
+			view.extendStyle()
+			view.appendChild(this.colNodes)
+			return view.vnode
+		},
+		data() {
+			return {
+				colNodes: [] as VNode[],
+			}
+		},
+		methods: {
+			setNodes(e : VNode[]) {
+				this.colNodes = this.colNodes.concat(e)
+			},
+			clearNodes() {
+				this.colNodes = []
+			}
+		}
+	}
+</script>

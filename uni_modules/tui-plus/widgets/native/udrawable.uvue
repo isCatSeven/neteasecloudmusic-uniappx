@@ -1,0 +1,8 @@
+<template>
+	<!-- #ifdef WEB -->
+	<canvas v-bind="$attrs"></canvas>
+	<!-- #endif -->
+	<!-- #ifdef APP -->
+	<view v-bind="$attrs"></view>
+	<!-- #endif -->
+</template>

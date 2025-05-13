@@ -1,0 +1,89 @@
+{
+  "name": "",
+  "description": "城市选择。",
+  "attributes": [
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]init",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "mode",
+      "description": "文本类型",
+      "type": "String"
+    },
+    {
+      "name": "patternsValue",
+      "description": "自定义值模式数组",
+      "type": "string[]"
+    },
+    {
+      "name": "patternsReg",
+      "description": "自定义正则表达式模式数组",
+      "type": "string[]"
+    },
+    {
+      "name": "selectable",
+      "description": "文本是否可选",
+      "type": "Boolean"
+    },
+    {
+      "name": "space",
+      "description": "显示连续空格",
+      "type": "String"
+    },
+    {
+      "name": "decode",
+      "description": "是否解码 (app平台如需解析字符实体，需要配置为 true)",
+      "type": "Boolean"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "value",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => [] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "list",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<UTSJSONObject>>,\r\n\t\t\t\tdefault: () : Array<UTSJSONObject> => [] as Array<UTSJSONObject>\r\n\t\t\t}"
+    }
+  ]
+}

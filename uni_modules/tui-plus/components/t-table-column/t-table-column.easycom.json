@@ -1,0 +1,44 @@
+{
+  "name": "",
+  "description": "TableColumn 表格子组件，用于创建表格的列，支持配置列模式、列标签、列宽、列属性名、对齐方式、是否可排序等。",
+  "attributes": [
+    {
+      "name": "mode",
+      "description": "列模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "label",
+      "description": "列标签",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "width",
+      "description": "列宽",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prop",
+      "description": "列属性名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "align",
+      "description": "对齐方式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'left'\r\n\t\t\t}"
+    },
+    {
+      "name": "sortable",
+      "description": "是否可排序",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "labelClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "labelCellClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

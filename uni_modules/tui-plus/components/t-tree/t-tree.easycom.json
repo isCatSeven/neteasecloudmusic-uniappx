@@ -1,0 +1,91 @@
+{
+  "name": "",
+  "description": "Tree 树组件，用于创建一个树形结构，支持配置选择模式、选中的节点ID、折叠的节点ID、树数据、父节点项、父节点ID、树类型、是否开启手风琴模式、加载函数、是否显示复选框、是否懒加载、是否显示编辑按钮、是否显示删除按钮等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]edit",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]delete",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "selectionMode",
+      "description": "选择模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'multiple'\r\n\t\t\t}"
+    },
+    {
+      "name": "selectIds",
+      "description": "选中的节点ID",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<String[]>,\r\n\t\t\t\tdefault: () : String[] => [] as String[]\r\n\t\t\t}"
+    },
+    {
+      "name": "foldIds",
+      "description": "折叠的节点ID",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<String[]>,\r\n\t\t\t\tdefault: () : String[] => [] as String[]\r\n\t\t\t}"
+    },
+    {
+      "name": "list",
+      "description": "树数据",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<TuiTreeData[]>,\r\n\t\t\t\tdefault: () : TuiTreeData[] => [] as TuiTreeData[]\r\n\t\t\t}"
+    },
+    {
+      "name": "partenItem",
+      "description": "父节点项",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<TuiTreeData | null>,\r\n\t\t\t\tdefault: () : TuiTreeData | null => null\r\n\t\t\t}"
+    },
+    {
+      "name": "partenId",
+      "description": "父节点ID",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "树类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "accordion",
+      "description": "是否开启手风琴模式",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "load",
+      "description": "加载函数",
+      "type": "{\r\n\t\t\t\ttype: Function as PropType<TuiTreeLoad>,\r\n\t\t\t\tdefault: (_ : string) : Promise<TuiTreeData[]> => {\r\n\t\t\t\t\treturn Promise.resolve([] as TuiTreeData[])\r\n\t\t\t\t}\r\n\t\t\t}"
+    },
+    {
+      "name": "showCheckbox",
+      "description": "是否显示复选框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "lazy",
+      "description": "是否懒加载",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "showEditButton",
+      "description": "是否显示编辑按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "showDeleteButton",
+      "description": "是否显示删除按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

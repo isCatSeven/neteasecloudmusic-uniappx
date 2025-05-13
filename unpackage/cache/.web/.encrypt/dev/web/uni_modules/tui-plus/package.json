@@ -1,0 +1,15 @@
+{
+    "id": "tui-plus",
+    "version": "2.4.45.11",
+    "uni_modules": {
+        "dependencies": [],
+        "artifacts": {
+            "env": {
+                "compilerVersion": "4.64"
+            }
+        },
+        "extends": {
+            "sn": "db8bkt1BVmxCJmRmnITB4o2SqSW805oUOGR5uV7qqWkfDY1hoskKjYx28DIhHdyZwqoANWNbSZTE5X1NzB8kpCjgcfUGbJR3mOXnGk4Pt2xhESqIhfZZJjT43JcMw3boY7YoMUxsfiLXjSCKezbVeKpcA+ddxL4NGwPaLLFe2rNwVb/JQPxpaPuSoJBBEaccOxDmU9k4xGpv/eg1TamC0BCm8Fjo/qqmmLocEywsL5MB/Pv3jT1NXaZx95qFh+/olOhlZ4w/adzYACN3u29SFg=="
+        }
+    }
+}

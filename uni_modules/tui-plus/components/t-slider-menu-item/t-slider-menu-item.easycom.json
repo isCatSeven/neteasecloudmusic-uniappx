@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "侧边分类子组件",
+  "attributes": [
+    {
+      "name": "type",
+      "description": "菜单类型",
+      "type": "String"
+    },
+    {
+      "name": "menusClass",
+      "description": "菜单类名",
+      "type": "String"
+    }
+  ]
+}

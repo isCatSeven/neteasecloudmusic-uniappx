@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "网格布局组件，用于将子元素以网格形式排列，支持配置列数、边框显示和子元素类名等。",
+  "attributes": [
+    {
+      "name": "column",
+      "description": "网格列数",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 4,\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "是否显示网格边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false,\r\n\t\t\t}"
+    },
+    {
+      "name": "childClass",
+      "description": "网格子元素的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    }
+  ]
+}

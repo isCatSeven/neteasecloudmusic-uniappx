@@ -1,0 +1,66 @@
+{
+  "name": "",
+  "description": "用于实现上拉加载更多功能的组件，支持多种配置，包括尺寸、线条、点、状态等。",
+  "attributes": [
+    {
+      "name": "size",
+      "description": "组件尺寸",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "line",
+      "description": "是否显示线条",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "lineClass",
+      "description": "线条额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "lineStyle",
+      "description": "线条样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"solid\"\r\n\t\t\t}"
+    },
+    {
+      "name": "hairline",
+      "description": "是否使用细线条",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "dot",
+      "description": "是否显示点",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "dotClass",
+      "description": "点的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "status",
+      "description": "组件状态",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'loadmore'\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIcon",
+      "description": "加载中的图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'reload'\r\n\t\t\t}"
+    },
+    {
+      "name": "loadmoreText",
+      "description": "加载前的提示语",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '上拉加载更多'\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingText",
+      "description": "加载中的提示语",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '加载中'\r\n\t\t\t}"
+    },
+    {
+      "name": "nomoreText",
+      "description": "没有更多的提示语",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '没有更多数据了'\r\n\t\t\t}"
+    }
+  ]
+}

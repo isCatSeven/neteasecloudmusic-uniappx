@@ -1,0 +1,66 @@
+{
+  "name": "",
+  "description": "PickerColor 颜色选择器\r\ndescription 是一个颜色选择器组件，允许用户从调色板中选择颜色。",
+  "attributes": [
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "value",
+      "description": "- 绑定的颜色值，支持v-model",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#F44336'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "change",
+      "description": "- 当颜色值发生变化时触发",
+      "type": "Function"
+    },
+    {
+      "name": "cancel",
+      "description": "- 当用户取消选择时触发",
+      "type": "Function"
+    },
+    {
+      "name": "confirm",
+      "description": "- 当用户确认选择时触发，并传递当前选中的颜色值",
+      "type": "Function"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    }
+  ]
+}

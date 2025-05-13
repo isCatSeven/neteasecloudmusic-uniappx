@@ -1,0 +1,66 @@
+{
+  "name": "",
+  "description": "Table 表格组件，用于创建一个表格，支持配置表格类型、表格数据、表格类名、表头类名、是否有边框、是否有斑马纹、斑马纹颜色、空数据文本、行键名、选中的行ID等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]sort",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "表格类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "tables",
+      "description": "表格数据",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<UTSJSONObject>>,\r\n\t\t\t\tdefault: () : Array<UTSJSONObject> => [] as Array<UTSJSONObject>\r\n\t\t\t}"
+    },
+    {
+      "name": "tableClass",
+      "description": "表格类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "headerClass",
+      "description": "表头类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "是否有边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "stripe",
+      "description": "是否有斑马纹",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "stripeColor",
+      "description": "斑马纹颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "emptyText",
+      "description": "空数据文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '暂无数据'\r\n\t\t\t}"
+    },
+    {
+      "name": "rowKey",
+      "description": "行键名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'id'\r\n\t\t\t}"
+    },
+    {
+      "name": "checkIds",
+      "description": "选中的行ID",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => [] as Array<string>\r\n\t\t\t}"
+    }
+  ]
+}

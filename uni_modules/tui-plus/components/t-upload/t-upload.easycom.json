@@ -1,0 +1,86 @@
+{
+  "name": "",
+  "description": "用于文件上传的组件，支持图片和视频，提供多种配置选项，包括上传模式、图标、数量限制等。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "modelValue",
+      "description": "上传文件选项数组",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<TuiUploadOptions>>,\r\n\t\t\t\tdefault: () : Array<TuiUploadOptions> => [] as Array<TuiUploadOptions>\r\n\t\t\t}"
+    },
+    {
+      "name": "closeIcon",
+      "description": "关闭图标的名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'close-circle-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "closeIconClass",
+      "description": "关闭图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "sourceType",
+      "description": "图片或视频拾取模式",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => ['album', 'camera'] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "uploadIcon",
+      "description": "上传区域的图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'camera-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "uploadIconClass",
+      "description": "上传图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "count",
+      "description": "最大上传数量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: -1\r\n\t\t\t}"
+    },
+    {
+      "name": "sizeType",
+      "description": "所选的图片的尺寸",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => ['original', 'compressed'] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "deletable",
+      "description": "是否展示删除按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "maxSize",
+      "description": "文件大小限制，单位为byte",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "fileList",
+      "description": "文件列表",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "previewImage",
+      "description": "是否预览",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "childClass",
+      "description": "子元素的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

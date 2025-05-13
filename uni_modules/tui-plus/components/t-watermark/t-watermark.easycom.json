@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "Watermark 水印组件，用于在页面上添加水印效果，支持配置水印的数量、角度、间隔等。",
+  "attributes": [
+    {
+      "name": "count",
+      "description": "水印的数量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 50\r\n\t\t\t}"
+    },
+    {
+      "name": "angle",
+      "description": "水印的角度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: -45\r\n\t\t\t}"
+    },
+    {
+      "name": "gutter",
+      "description": "水印之间的间隔",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '60'\r\n\t\t\t}"
+    }
+  ]
+}

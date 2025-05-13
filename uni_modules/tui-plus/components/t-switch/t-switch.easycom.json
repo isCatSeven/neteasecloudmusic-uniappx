@@ -1,0 +1,91 @@
+{
+  "name": "",
+  "description": "实现开关切换功能。支持显示文字和图标，可自定义颜色和样式，具有加载状态显示，以及可以与表单组件配合使用。使用场景主要包括：在表单、设置页面或需要用户进行二元选择的界面中，提供直观的开关操作选项。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "组件类型，默认为 'p'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "showText",
+      "description": "是否显示文字，默认为 true",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "提示文字显示位置，默认为 '1'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '1'\r\n\t\t\t}"
+    },
+    {
+      "name": "modelValue",
+      "description": "绑定的模型值，默认为 false",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "contentClass",
+      "description": "内容区域的额外类名，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "barClass",
+      "description": "Bar区域的额外类名，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "打开时的背景色，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "关闭时的背景色，默认为 '#eaeaea'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#eaeaea'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeText",
+      "description": "打开时的文字，默认为 '开'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '开'\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveText",
+      "description": "关闭时的文字，默认为 '关'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '关'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeIcon",
+      "description": "打开时的Bar图标，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveIcon",
+      "description": "关闭时的Bar图标，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "activeTextColor",
+      "description": "打开时的文字颜色，默认为 ''",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveTextColor",
+      "description": "关闭时的文字颜色，默认为 '#acacac'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#acacac'\r\n\t\t\t}"
+    },
+    {
+      "name": "loading",
+      "description": "是否处于加载中状态，默认为 false",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

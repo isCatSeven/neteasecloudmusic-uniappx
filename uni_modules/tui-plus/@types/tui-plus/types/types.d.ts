@@ -1,0 +1,12 @@
+export type TypeComponent = 'normal' | 'info' | 'primary' | 'error' | 'warning' | 'success';
+export type TypeSize = 'large' | 'medium' | 'small' | 'mini';
+export type TypeAlign = 'left' | 'center' | 'right';
+export type TypeDirection = 'left' | 'center' | 'right' | 'bottom';
+export type TypeEffect = 'normal' | 'dark' | 'disabled' | 'light' | 'plain';
+export type TypeInputMode = 'text' | 'number' | 'digit' | 'tel';
+export type TypeShape = 'circle' | 'square';
+export type TypeIconMode = 'draw' | 'icon';
+export type TypeImageMode = 'scaleToFill' | 'aspectFit' | 'aspectFill' | 'widthFix' | 'heightFix' | 'top' | 'bottom' | 'center' | 'left' | 'right' | 'top left' | 'top right' | 'bottom left' | 'bottom right';
+export type TypeUtextSpace = 'ensp' | 'emsp' | 'nbsp';
+export type TypeCheckboxMode = 'checkbox' | 'button' | 'cell' | 'tag';
+export type TypeRadioboxMode = 'radio' | 'button' | 'cell' | 'tag';

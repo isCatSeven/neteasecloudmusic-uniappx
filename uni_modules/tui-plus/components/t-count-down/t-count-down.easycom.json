@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "description": "用于显示倒计时的组件，可以自定义倒计时的时长和显示格式。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "time",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "format",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'hh:MM:ss'\r\n\t\t\t}"
+    }
+  ]
+}

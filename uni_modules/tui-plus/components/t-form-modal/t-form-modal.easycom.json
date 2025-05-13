@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "动态表单窗口版",
+  "attributes": [
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "按钮集合组件，用于创建一组社交分享按钮，支持配置按钮数据等。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "buttons",
+      "description": "按钮数据",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<UTSJSONObject>>,\r\n\t\t\t\tdefault: () : UTSJSONObject[] => []\r\n\t\t\t}"
+    }
+  ]
+}

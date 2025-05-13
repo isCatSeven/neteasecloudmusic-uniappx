@@ -1,0 +1,96 @@
+{
+  "name": "",
+  "description": "轮播组件，用于创建一个轮播图，支持配置卡片模式、轮播类型、指示点显示、指示点类名、指示点激活颜色、自动播放、当前激活的轮播项、播放间隔、动画持续时间、循环播放、前后间距、禁用触摸、纵向显示、缓动函数等。",
+  "attributes": [
+    {
+      "name": "[event]animationfinish",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]transition",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "card",
+      "description": "是否为卡片模式",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "轮播类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "indicatorDots",
+      "description": "是否显示指示点",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "indicatorDotsClass",
+      "description": "指示点的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "indicatorActiveColor",
+      "description": "指示点激活的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "autoplay",
+      "description": "是否自动播放",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "current",
+      "description": "当前激活的轮播项索引",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "interval",
+      "description": "播放间隔时间，单位为毫秒",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 3000\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "description": "动画持续时间，单位为毫秒",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 500\r\n\t\t\t}"
+    },
+    {
+      "name": "circular",
+      "description": "是否循环播放",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "previousMargin",
+      "description": "前间距",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0'\r\n\t\t\t}"
+    },
+    {
+      "name": "nextMargin",
+      "description": "后间距",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0'\r\n\t\t\t}"
+    },
+    {
+      "name": "disableTouch",
+      "description": "是否禁用触摸",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "vertical",
+      "description": "是否纵向显示",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "easingFunction",
+      "description": "缓动函数",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'ease-out'\r\n\t\t\t}"
+    }
+  ]
+}

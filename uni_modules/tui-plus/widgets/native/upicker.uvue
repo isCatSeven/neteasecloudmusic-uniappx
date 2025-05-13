@@ -1,0 +1,5 @@
+<template>
+	<picker-view v-bind="$attrs" indicator-style="height: 50px;">
+		<slot></slot>
+	</picker-view>
+</template>

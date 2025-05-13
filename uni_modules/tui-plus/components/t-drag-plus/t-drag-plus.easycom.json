@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "description": "拖拽元素盒子",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<any[]>,\r\n\t\t\t\tdefault: () : any[] => [] as any[]\r\n\t\t\t}"
+    }
+  ]
+}

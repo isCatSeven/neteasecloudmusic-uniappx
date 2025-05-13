@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "description": "用于绘制线条的组件，支持多种配置，包括线条大小、长度、方向、是否为细边框以及边框样式。",
+  "attributes": [
+    {
+      "name": "lineSize",
+      "description": "线条的粗细",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '1px'\r\n\t\t\t}"
+    },
+    {
+      "name": "length",
+      "description": "线条的长度",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'auto'\r\n\t\t\t}"
+    },
+    {
+      "name": "direction",
+      "description": "线条的方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'row'\r\n\t\t\t}"
+    },
+    {
+      "name": "hairline",
+      "description": "是否使用细边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "borderStyle",
+      "description": "边框样式",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "lineStyle",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'solid'\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "",
+  "description": "用于选择日期的日历组件，支持多种配置，包括悬停效果、类型、绑定值、标题、选中颜色、模式、视图模式、触摸禁用、垂直显示、已选日期、农历显示、显示月份背景、是否仅显示当前月份、节日显示、日期选择范围等。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "description": "绑定值，用于双向数据绑定",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => [] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "selected",
+      "description": "已选日期",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<UTSJSONObject[]>,\r\n\t\t\t\tdefault: () : UTSJSONObject[] => []\r\n\t\t\t}"
+    },
+    {
+      "name": "hover",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "title",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '请选择日期'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeBackgroundColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#f56c6c'\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'range'\r\n\t\t\t}"
+    },
+    {
+      "name": "viewMode",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'month',\r\n\t\t\t\tvalidator: (value : string) : boolean => ['month', 'week'].includes(value)\r\n\t\t\t}"
+    },
+    {
+      "name": "disableTouch",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "vertical",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "lunar",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "showMonthBg",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "monthShowCurrentMonth",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "festival",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "startDate",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "endDate",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

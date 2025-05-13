@@ -1,0 +1,86 @@
+{
+  "name": "",
+  "description": "分页组件，用于显示和操作分页数据，支持配置大小、展示模式、页码类型、前后页文本、是否显示前后页按钮、当前页码、数据总量、每页数据量、首页和末页文本、是否显示首页和末页按钮等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "size",
+      "description": "分页组件的尺寸",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'mini'\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "展示模式，1表示文字按钮，2表示图标按钮",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '1'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "分页组件的类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "pageType",
+      "description": "页码展示类型，1表示简约型，2表示展开型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '2'\r\n\t\t\t}"
+    },
+    {
+      "name": "preText",
+      "description": "上一页的文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '上一页'\r\n\t\t\t}"
+    },
+    {
+      "name": "nextText",
+      "description": "下一页的文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '下一页'\r\n\t\t\t}"
+    },
+    {
+      "name": "showPreButton",
+      "description": "是否显示上一页按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true,\r\n\t\t\t}"
+    },
+    {
+      "name": "showNextButton",
+      "description": "是否显示下一页按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true,\r\n\t\t\t}"
+    },
+    {
+      "name": "current",
+      "description": "当前页码",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1\r\n\t\t\t}"
+    },
+    {
+      "name": "total",
+      "description": "数据总量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "pageSize",
+      "description": "每页数据量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 10\r\n\t\t\t}"
+    },
+    {
+      "name": "firstText",
+      "description": "首页的文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '首页'\r\n\t\t\t}"
+    },
+    {
+      "name": "lastText",
+      "description": "末页的文本",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '未页',\r\n\t\t\t}"
+    },
+    {
+      "name": "showFirstButton",
+      "description": "是否显示首页按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true,\r\n\t\t\t}"
+    },
+    {
+      "name": "showLastButton",
+      "description": "是否显示末页按钮",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true,\r\n\t\t\t}"
+    }
+  ]
+}

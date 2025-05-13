@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "attributes": [
+    {
+      "name": "[event]refresherrefresh",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]loaderrefresh",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "column",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 2\r\n\t\t\t}"
+    },
+    {
+      "name": "colSpace",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '30rpx'\r\n\t\t\t}"
+    }
+  ]
+}

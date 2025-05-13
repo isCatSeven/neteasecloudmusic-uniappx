@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "气泡框组件，用于显示弹出内容，支持配置弹出位置、弹出项数据、层叠顺序等。",
+  "attributes": [
+    {
+      "name": "[event]select",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "弹出框类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "placement",
+      "description": "弹出框位置",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'bottom'\r\n\t\t\t}"
+    },
+    {
+      "name": "items",
+      "description": "弹出框项数据列表",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<UTSJSONObject>>,\r\n\t\t\t\tdefault: () : Array<UTSJSONObject> => [] as Array<UTSJSONObject>\r\n\t\t\t}"
+    },
+    {
+      "name": "zIndex",
+      "description": "弹出框的层叠顺序",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 998\r\n\t\t\t}"
+    }
+  ]
+}

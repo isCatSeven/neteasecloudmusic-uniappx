@@ -1,0 +1,71 @@
+{
+  "name": "",
+  "description": "评分组件，用于显示和操作评分，支持配置大小、显示的星星数量、是否只读、激活和未激活颜色、星星间距、最少选择数量、激活和未激活图标等。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "size",
+      "description": "星星的大小",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"l\"\r\n\t\t\t}"
+    },
+    {
+      "name": "modelValue",
+      "description": "双向绑定的选中星星数量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1\r\n\t\t\t}"
+    },
+    {
+      "name": "count",
+      "description": "显示的星星数量",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 5\r\n\t\t\t}"
+    },
+    {
+      "name": "readonly",
+      "description": "是否只读",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "未选中时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#B2B2B2'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "选中的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "gutter",
+      "description": "星星之间的间距，单位为px",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '15rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "minCount",
+      "description": "最少能选择的星星个数",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1\r\n\t\t\t}"
+    },
+    {
+      "name": "activeIcon",
+      "description": "选中时的图标（星星）",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'star-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveIcon",
+      "description": "未选中时的图标（星星）",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'star'\r\n\t\t\t}"
+    }
+  ]
+}

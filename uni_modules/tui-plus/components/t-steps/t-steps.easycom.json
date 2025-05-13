@@ -1,0 +1,61 @@
+{
+  "name": "",
+  "description": "步骤条组件，用于创建一个显示步骤进度的条形组件，支持配置步骤类型、方向、当前步骤、激活状态文字颜色、激活图标、未激活状态文字颜色等。",
+  "attributes": [
+    {
+      "name": "type",
+      "description": "步骤类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "direction",
+      "description": "步骤方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'row'\r\n\t\t\t}"
+    },
+    {
+      "name": "current",
+      "description": "当前步骤",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 2\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "激活状态文字颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "activeIcon",
+      "description": "激活图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'checkbox-mark'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeIconClass",
+      "description": "激活图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "barClass",
+      "description": "步骤条的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "indexClass",
+      "description": "步骤索引的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "未激活状态文字颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#afafaf'\r\n\t\t\t}"
+    },
+    {
+      "name": "lineClass",
+      "description": "步骤线条的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "showIndex",
+      "description": "是否显示步骤索引",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    }
+  ]
+}

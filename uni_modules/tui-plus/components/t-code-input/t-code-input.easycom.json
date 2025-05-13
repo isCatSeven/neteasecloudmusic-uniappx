@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "description": "用于输入验证码的组件，支持配置输入框类型、类名、最大长度、是否显示为点、点的大小和符号、显示模式、预置值和是否自动聚焦。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]input",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "editBoxClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "maxlength",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 6\r\n\t\t\t}"
+    },
+    {
+      "name": "dot",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "dotSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '15rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "dotSymbol",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'box'\r\n\t\t\t}"
+    },
+    {
+      "name": "modelValue",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "autoFocus",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

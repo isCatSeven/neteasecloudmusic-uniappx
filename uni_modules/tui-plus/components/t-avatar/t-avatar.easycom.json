@@ -1,0 +1,66 @@
+{
+  "name": "",
+  "description": "用于显示头像的组件，支持多种配置，包括图片源、显示模式、图标、文字、类名以及随机背景色等。",
+  "attributes": [
+    {
+      "name": "src",
+      "description": "图片源地址",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "- 图片裁剪、缩放的模式 (默认 'scaleToFill')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'scaleToFill'\r\n\t\t\t}"
+    },
+    {
+      "name": "icon",
+      "description": "显示的图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "text",
+      "description": "显示的文字",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "imageClass",
+      "description": "图片的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "iconClass",
+      "description": "图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "textClass",
+      "description": "文字的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "randombackgroundColor",
+      "description": "是否启用随机背景颜色",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    }
+  ]
+}

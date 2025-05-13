@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "description": "侧边分类组件，用于创建一个可滑动的侧边菜单，支持配置菜单类型、菜单类名等。",
+  "attributes": [
+    {
+      "name": "type",
+      "description": "菜单类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "menusClass",
+      "description": "菜单类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

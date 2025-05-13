@@ -1,0 +1,61 @@
+{
+  "name": "",
+  "description": "签名组件，用于创建一个签名区域，支持配置线条颜色、线条大小、是否开启平滑模式、线条最小宽度、线条最大宽度、最小速度、最大宽度变化率、最大历史记录点数、是否禁用滚动、是否禁用组件、是否横屏模式等。",
+  "attributes": [
+    {
+      "name": "color",
+      "description": "线条颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "lineSize",
+      "description": "线条大小",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 2\r\n\t\t\t}"
+    },
+    {
+      "name": "openSmooth",
+      "description": "是否开启平滑模式",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "minWidth",
+      "description": "线条最小宽度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 2\r\n\t\t\t}"
+    },
+    {
+      "name": "maxWidth",
+      "description": "线条最大宽度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 6\r\n\t\t\t}"
+    },
+    {
+      "name": "minSpeed",
+      "description": "最小速度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1.5\r\n\t\t\t}"
+    },
+    {
+      "name": "maxWidthDiffRate",
+      "description": "最大宽度变化率",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 20\r\n\t\t\t}"
+    },
+    {
+      "name": "maxHistory",
+      "description": "最大历史记录点数",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 20\r\n\t\t\t}"
+    },
+    {
+      "name": "disableScroll",
+      "description": "是否禁用滚动",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用组件",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "landscape",
+      "description": "是否横屏模式",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    }
+  ]
+}

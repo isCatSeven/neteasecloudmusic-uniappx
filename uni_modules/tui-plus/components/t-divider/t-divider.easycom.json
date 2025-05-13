@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "description": "用于在布局中创建分割线的组件，支持自定义大小、线条样式、边框类名等。",
+  "attributes": [
+    {
+      "name": "size",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"small\"\r\n\t\t\t}"
+    },
+    {
+      "name": "line",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "borderClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "lineStyle",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"solid\"\r\n\t\t\t}"
+    },
+    {
+      "name": "hairline",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "lineClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "dot",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "dotClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    }
+  ]
+}

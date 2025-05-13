@@ -1,0 +1,61 @@
+{
+  "name": "",
+  "description": "键盘组件，用于虚拟键盘输入，支持配置键盘类型、模式、初始值、激活和未激活颜色等。",
+  "attributes": [
+    {
+      "name": "[event]cancel",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]clear",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]confirm",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]input",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]back",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]close",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "键盘类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "键盘模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'car'\r\n\t\t\t}"
+    },
+    {
+      "name": "value",
+      "description": "键盘初始值",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => [] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "键盘未激活时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#E4E7ED'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "键盘激活时的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

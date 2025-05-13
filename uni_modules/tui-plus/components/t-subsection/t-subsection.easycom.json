@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "description": "子章节组件，用于创建一个带有选项卡的子章节，支持配置子章节类型、选项数据、当前激活的选项、激活颜色、未激活颜色、是否有边框等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "子章节类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "list",
+      "description": "选项数据",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<TuiSubsectionOption>>,\r\n\t\t\t\tdefault: () : Array<TuiSubsectionOption> => [] as Array<TuiSubsectionOption>\r\n\t\t\t}"
+    },
+    {
+      "name": "current",
+      "description": "当前激活的选项索引",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "激活的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "未激活的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "barClass",
+      "description": "标签栏的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "iconClass",
+      "description": "图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "titleClass",
+      "description": "标题的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "description": "用于展示可折叠内容的组件，支持手风琴模式，可以自定义折叠面板的值。",
+  "attributes": [
+    {
+      "name": "values",
+      "description": "折叠面板的值",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : string[] => []\r\n\t\t\t}"
+    },
+    {
+      "name": "accordion",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    }
+  ]
+}

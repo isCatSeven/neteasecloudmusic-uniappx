@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "description": "排序按钮组件，用于创建一个可点击的排序按钮，支持配置激活颜色、非激活颜色、前置图标、后置图标等。",
+  "attributes": [
+    {
+      "name": "activeColor",
+      "description": "激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "非激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#cccccc'\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIcon",
+      "description": "前置图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-up-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconClass",
+      "description": "前置图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIcon",
+      "description": "后置图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-down-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconClass",
+      "description": "后置图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "state",
+      "description": "排序状态",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    }
+  ]
+}

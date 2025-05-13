@@ -1,0 +1,56 @@
+{
+  "name": "",
+  "description": "长列表组件，用于显示列表数据，支持配置下拉刷新、加载更多等功能。",
+  "attributes": [
+    {
+      "name": "[event]refresherrestore",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]refresherrefresh",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]refresherpulling",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]scrolltolower",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "refresher",
+      "description": "是否启用下拉刷新功能",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "refresherClass",
+      "description": "下拉刷新区域的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    },
+    {
+      "name": "loader",
+      "description": "是否启用加载更多功能",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "loaderClass",
+      "description": "加载更多区域的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshHeight",
+      "description": "下拉刷新的高度阈值",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '200'\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshClass",
+      "description": "下拉刷新区域的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

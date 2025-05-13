@@ -1,0 +1,146 @@
+{
+  "name": "",
+  "description": "用于输入多行文本的组件，支持多种配置，包括自动增高、光标颜色、选择文本等。",
+  "attributes": [
+    {
+      "name": "[event]confirm",
+      "description": "- 点击完成时， 触发 confirm 事件，event.detail = {value: value}",
+      "type": "Function"
+    },
+    {
+      "name": "[event]input",
+      "description": "- 当键盘输入时，触发 input 事件，event.detail = {value, cursor}，",
+      "type": "Function"
+    },
+    {
+      "name": "[event]linechange",
+      "description": "- 输入框行数变化时调用，event.detail = {height: 0, heightRpx: 0, lineCount: 0}",
+      "type": "Function"
+    },
+    {
+      "name": "[event]blur",
+      "description": "- 输入框失去焦点时触发，event.detail = {value, cursor}",
+      "type": "Function"
+    },
+    {
+      "name": "[event]keyboardheightchange",
+      "description": "- 键盘高度发生变化的时候触发此事件，event.detail = {height: height, duration: duration}",
+      "type": "Function"
+    },
+    {
+      "name": "[event]focus",
+      "description": "- 输入框聚焦时触发，event.detail = { value, height }，height 为键盘高度，在基础库 1.9.90 起支持",
+      "type": "Function"
+    },
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]clear",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "name",
+      "description": "- 表单的控件名称，作为键值对的一部分与表单(form组件)一同提交",
+      "type": "String"
+    },
+    {
+      "name": "value",
+      "description": "- 输入框的初始内容",
+      "type": "String"
+    },
+    {
+      "name": "placeholder",
+      "description": "- 输入框为空时占位符",
+      "type": "String"
+    },
+    {
+      "name": "maxlength",
+      "description": "- 最大输入长度",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 200\r\n\t\t\t}"
+    },
+    {
+      "name": "autoFocus",
+      "description": "- 自动获取焦点，与focus属性对比，此属性只会首次生效",
+      "type": "Boolean"
+    },
+    {
+      "name": "focus",
+      "description": "- 获取焦点",
+      "type": "Boolean"
+    },
+    {
+      "name": "confirmType",
+      "description": "- 设置键盘右下角按钮的文字",
+      "type": "String"
+    },
+    {
+      "name": "cursor",
+      "description": "- 指定focus时的光标位置",
+      "type": "Number"
+    },
+    {
+      "name": "confirmHold",
+      "description": "- 点击键盘右下角按钮时是否保持键盘不收起",
+      "type": "Boolean"
+    },
+    {
+      "name": "autoHeight",
+      "description": "- 是否自动增高，设置auto-height时，style.height不生效",
+      "type": "Boolean"
+    },
+    {
+      "name": "cursorSpacing",
+      "description": "- 指定光标与键盘的距离，单位 px 。取 textarea 距离底部的距离和 cursor-spacing 指定的距离的最小值作为光标与键盘的距离",
+      "type": "Number"
+    },
+    {
+      "name": "cursorColor",
+      "description": "- 指定光标颜色",
+      "type": "String"
+    },
+    {
+      "name": "selectionStart",
+      "description": "- 光标起始位置，自动聚集时有效，需与selection-end搭配使用",
+      "type": "Number"
+    },
+    {
+      "name": "selectionEnd",
+      "description": "- 光标结束位置，自动聚集时有效，需与selection-satrt搭配使用",
+      "type": "Number"
+    },
+    {
+      "name": "adjustPosition",
+      "description": "- 键盘弹起时，是否自动上推页面",
+      "type": "Boolean"
+    },
+    {
+      "name": "holdKeyboard",
+      "description": "- focus时，点击页面的时候不收起键盘",
+      "type": "Boolean"
+    },
+    {
+      "name": "modelValue",
+      "description": "- 绑定的值，支持v-model",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "count",
+      "description": "- 是否显示字数统计",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "clearabled",
+      "description": "- 是否可清空输入内容",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "- 是否显示边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    }
+  ]
+}

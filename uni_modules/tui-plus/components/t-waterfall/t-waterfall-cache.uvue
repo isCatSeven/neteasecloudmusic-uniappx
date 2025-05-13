@@ -1,0 +1,27 @@
+<script>
+	import { TuiView } from '../../widgets/views/View.uts'
+	export default {
+		render() : VNode {
+			const view = new TuiView()
+			view.class = 'fv'
+			view.appendChild(this.colNodes)
+			return view.vnode
+		},
+		data() {
+			return {
+				colNodes: [] as VNode[]
+			}
+		},
+		methods: {
+			setNodes(nodes : VNode[], callback : (vnodes : VNode[]) => void) {
+				this.colNodes = nodes
+				this.$nextTick(() => {
+					callback(this.colNodes)
+				})
+			},
+			clear() {
+				this.colNodes = []
+			}
+		}
+	}
+</script>

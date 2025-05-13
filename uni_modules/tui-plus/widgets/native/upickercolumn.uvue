@@ -1,0 +1,5 @@
+<template>
+	<picker-view-column v-bind="$attrs">
+		<slot></slot>
+	</picker-view-column>
+</template>

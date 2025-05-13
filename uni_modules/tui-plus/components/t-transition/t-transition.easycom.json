@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "description": "用于实现过渡动画的组件，支持多种配置，包括动画模式、执行时间、过渡函数等。",
+  "attributes": [
+    {
+      "name": "show",
+      "description": "- 是否展示组件 (默认 true)",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "description": "- 使用的动画模式 (默认 \"\")",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "duration",
+      "description": "- 动画的执行时间，单位ms (默认 500)",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 500\r\n\t\t\t}"
+    },
+    {
+      "name": "timingFunction",
+      "description": "- 使用的动画过渡函数 (默认 'ease-in-out')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'ease-in-out'\r\n\t\t\t}"
+    },
+    {
+      "name": "transformOrigin",
+      "description": "- 变换原点 (默认 '50% 50%')",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '50% 50%'\r\n\t\t\t}"
+    }
+  ]
+}

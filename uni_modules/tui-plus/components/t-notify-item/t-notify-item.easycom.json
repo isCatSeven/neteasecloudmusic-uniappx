@@ -1,0 +1,146 @@
+{
+  "name": "",
+  "description": "消息通知子组件",
+  "attributes": [
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'info'\r\n\t\t\t}"
+    },
+    {
+      "name": "shape",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'square'\r\n\t\t\t}"
+    },
+    {
+      "name": "plain",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '28rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconPadding",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0 10rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconCustomStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIconStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '28rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconPadding",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0 10rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconCustomStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIconStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIconColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIconStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIconSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '35rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "customStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "width",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "height",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "padding",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '15rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "text",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "textSize",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '28rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "color",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "textStyle",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<any>,\r\n\t\t\t\tdefault: () : any => { }\r\n\t\t\t}"
+    },
+    {
+      "name": "disabled",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "hover",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "radius",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '0'\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "borderWidth",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '1px'\r\n\t\t\t}"
+    },
+    {
+      "name": "borderStyle",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'solid'\r\n\t\t\t}"
+    },
+    {
+      "name": "borderColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "backgroundColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

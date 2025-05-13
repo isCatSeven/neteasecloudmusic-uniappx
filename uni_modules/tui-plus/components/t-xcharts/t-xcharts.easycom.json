@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "XCharts UTS图表，用于创建图表，支持配置图表的选项。",
+  "attributes": [
+    {
+      "name": "option",
+      "description": "图表的配置项",
+      "type": "{\r\n\t\t\t\ttype: Object as PropType<UTSJSONObject>,\r\n\t\t\t\tdefault: () : UTSJSONObject => ({} as UTSJSONObject)\r\n\t\t\t}"
+    }
+  ]
+}

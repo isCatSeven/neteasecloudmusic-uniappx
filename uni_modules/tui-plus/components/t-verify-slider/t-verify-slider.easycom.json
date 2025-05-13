@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "description": "VerifySlider 滑块验证组件，用于创建一个滑块验证的交互组件，支持配置组件类型、标题、验证成功标题、激活状态下的滑块图标、非激活状态下的滑块图标、激活颜色、非激活颜色、验证范围等。",
+  "attributes": [
+    {
+      "name": "type",
+      "description": "组件类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    },
+    {
+      "name": "title",
+      "description": "标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '请拖动滑块到虚线框'\r\n\t\t\t}"
+    },
+    {
+      "name": "successTitle",
+      "description": "验证成功标题",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '验证成功'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeSliderIcon",
+      "description": "激活状态下的滑块图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'checkmark-circle-fill'\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveSliderIcon",
+      "description": "非激活状态下的滑块图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-right-double'\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "inactiveColor",
+      "description": "非激活颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#bfbfbf'\r\n\t\t\t}"
+    },
+    {
+      "name": "verifyRange",
+      "description": "验证范围",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 10\r\n\t\t\t}"
+    }
+  ]
+}

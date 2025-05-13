@@ -1,0 +1,90 @@
+{
+  "name": "",
+  "description": "用于显示文本的组件，支持多种配置，包括文本类型、对齐方式、格式化、图标等。",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "mode",
+      "description": "文本类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'default'\r\n\t\t\t}"
+    },
+    {
+      "name": "patternsValue",
+      "description": "自定义值模式数组",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<string[]>,\r\n\t\t\t\tdefault: () : string[] => [] as string[]\r\n\t\t\t}"
+    },
+    {
+      "name": "patternsReg",
+      "description": "自定义正则表达式模式数组",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<string[]>,\r\n\t\t\t\tdefault: () : string[] => [] as string[]\r\n\t\t\t}"
+    },
+    {
+      "name": "selectable",
+      "description": "文本是否可选",
+      "type": "Boolean"
+    },
+    {
+      "name": "space",
+      "description": "显示连续空格",
+      "type": "String"
+    },
+    {
+      "name": "decode",
+      "description": "是否解码 (app平台如需解析字符实体，需要配置为 true)",
+      "type": "Boolean"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "format",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'yyyy-mm-dd hh:MM:ss'\r\n\t\t\t}"
+    },
+    {
+      "name": "decimals",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "lines",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: -1\r\n\t\t\t}"
+    },
+    {
+      "name": "decimalPoint",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '￥'\r\n\t\t\t}"
+    },
+    {
+      "name": "overflow",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "patternsColor",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"#ff0000\"\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "",
+  "description": "Tabs 标签导航组件，用于创建一个标签导航，支持配置标签尺寸、类型、标签数据、当前激活的标签、菜单是否可滚动、标签项类名、标签栏类名、右侧图标、右侧图标类名等。",
+  "attributes": [
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "size",
+      "description": "标签尺寸",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'mini'\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "description": "标签类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'error'\r\n\t\t\t}"
+    },
+    {
+      "name": "tabs",
+      "description": "标签数据",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<TuiTabsOption>>,\r\n\t\t\t\tdefault: () : Array<TuiTabsOption> => [] as Array<TuiTabsOption>\r\n\t\t\t}"
+    },
+    {
+      "name": "current",
+      "description": "当前激活的标签索引",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "scrollabel",
+      "description": "菜单是否可滚动",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "itemClass",
+      "description": "标签项类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'true'\r\n\t\t\t}"
+    },
+    {
+      "name": "barClass",
+      "description": "标签栏类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'true'\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIcon",
+      "description": "右侧图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIconClass",
+      "description": "右侧图标类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

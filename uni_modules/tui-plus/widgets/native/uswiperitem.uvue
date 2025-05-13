@@ -1,0 +1,3 @@
+<template>
+	<swiper-item v-bind="$attrs"><slot></slot></swiper-item>
+</template>

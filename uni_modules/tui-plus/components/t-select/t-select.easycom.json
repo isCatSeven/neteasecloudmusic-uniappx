@@ -1,0 +1,123 @@
+{
+  "name": "",
+  "description": "下拉选择，用于显示弹出内容，支持配置弹出位置、弹出项数据、层叠顺序等。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]change",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]clear",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "description": "绑定值，用于双向绑定选择的项",
+      "type": "{\r\n\t\t\t\ttype: Array as PropType<Array<string>>,\r\n\t\t\t\tdefault: () : Array<string> => [] as Array<string>\r\n\t\t\t}"
+    },
+    {
+      "name": "clearabled",
+      "description": "是否可清除已选择的项",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "showValueBackground",
+      "description": "是否显示值背景",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "multiple",
+      "description": "是否支持多选",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "placeholder",
+      "description": "占位符，用于显示在没有选择时的提示信息",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '请选择'\r\n\t\t\t}"
+    },
+    {
+      "name": "placeholderClass",
+      "description": "占位符的类名，用于自定义占位符样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "placement",
+      "description": "弹出框位置，支持不同的弹出方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'bottom'\r\n\t\t\t}"
+    },
+    {
+      "name": "zIndex",
+      "description": "弹出层的z-index，用于控制弹出层的堆叠顺序",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 998\r\n\t\t\t}"
+    },
+    {
+      "name": "activeColor",
+      "description": "自定义颜色覆盖主题，用于定义激活状态下的颜色",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "showIcon",
+      "description": "是否显示图标",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "clearIconClass",
+      "description": "清除图标的类名，用于自定义清除图标的样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "textClass",
+      "description": "文本的类名，用于自定义文本样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "iconClass",
+      "description": "图标的类名，用于自定义图标样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "maskClass",
+      "description": "遮罩层的类名，用于自定义遮罩层样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "dropDownClass",
+      "description": "下拉列表的类名，用于自定义下拉列表样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "listItemClass",
+      "description": "列表项的类名，用于自定义列表项样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIcon",
+      "description": "右侧图标，用于定义右侧的图标",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-down'\r\n\t\t\t}"
+    },
+    {
+      "name": "rightIconClass",
+      "description": "右侧图标的类名，用于自定义右侧图标的样式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIcon",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

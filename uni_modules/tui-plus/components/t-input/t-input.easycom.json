@@ -1,0 +1,148 @@
+{
+  "name": "",
+  "description": "用于输入文本的组件，支持多种配置，包括前置图标、后置图标、清空输入、密码显示等。",
+  "attributes": [
+    {
+      "name": "[event]update:modelValue",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]clear",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]input",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]blur",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]prefixClick",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]suffixClick",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "modelValue",
+      "description": "- 绑定的值，支持v-model",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"\"\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIcon",
+      "description": "- 前置图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixClass",
+      "description": "- 前置图标额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIcon",
+      "description": "- 后置图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixClass",
+      "description": "- 后置图标额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "clearIcon",
+      "description": "- 清空图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'close-circle'\r\n\t\t\t}"
+    },
+    {
+      "name": "clearClass",
+      "description": "- 清空图标额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "eyeIcon",
+      "description": "- 显示密码图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'eye'\r\n\t\t\t}"
+    },
+    {
+      "name": "eyeOffIcon",
+      "description": "- 隐藏密码图标名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'eye-off-outline'\r\n\t\t\t}"
+    },
+    {
+      "name": "eyeClass",
+      "description": "- 密码图标的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 's.35'\r\n\t\t\t}"
+    },
+    {
+      "name": "password",
+      "description": "- 是否为密码输入框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "eye",
+      "description": "- 密码是否可见",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "clearabled",
+      "description": "- 是否可清空输入内容",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "- 是否显示边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "size",
+      "description": "按钮尺寸 (默认 'medium')",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "description": "组件场景 (默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "disabled",
+      "description": "是否禁用",
+      "type": "Boolean"
+    },
+    {
+      "name": "hover",
+      "description": "是否有鼠标悬停效果",
+      "type": "Boolean"
+    },
+    {
+      "name": "effect",
+      "description": "(默认 \"\")",
+      "type": "String"
+    },
+    {
+      "name": "initForm",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "mode",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: \"text\"\r\n\t\t\t}"
+    },
+    {
+      "name": "inputClass",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "",
+  "description": "滚动组件，用于提供滚动容器，支持配置滚动类型、是否有弹跳效果、滚动方向、是否自定义嵌套滚动、是否启用下拉刷新和上拉加载等功能。",
+  "attributes": [
+    {
+      "name": "[event]refresherrefresh",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]loaderrefresh",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]scrollend",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "[event]scroll",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "type",
+      "description": "滚动类型",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p',\r\n\t\t\t}"
+    },
+    {
+      "name": "bounces",
+      "description": "是否有弹跳效果",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "direction",
+      "description": "滚动方向",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'vertical',\r\n\t\t\t}"
+    },
+    {
+      "name": "customNestedScroll",
+      "description": "是否自定义嵌套滚动",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "refresher",
+      "description": "是否启用下拉刷新",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "refresherClass",
+      "description": "下拉刷新区域的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    },
+    {
+      "name": "loader",
+      "description": "是否启用上拉加载",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "loaderClass",
+      "description": "上拉加载区域的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    },
+    {
+      "name": "backgroundClass",
+      "description": "背景区域的类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '',\r\n\t\t\t}"
+    }
+  ]
+}

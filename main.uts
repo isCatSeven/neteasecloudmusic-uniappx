@@ -1,0 +1,23 @@
+import App from './App.uvue'
+
+import { createSSRApp } from 'vue'
+
+export function createApp() {
+    const app = createSSRApp(App)
+
+    return {
+        app
+    }
+}
+
+export default {
+    onLaunch: function() {
+        console.log('App Launch')
+    },
+    onShow: function() {
+        console.log('App Show')
+    },
+    onHide: function() {
+        console.log('App Hide')
+    }
+}

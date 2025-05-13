@@ -1,0 +1,105 @@
+{
+  "name": "",
+  "description": "Button 按钮",
+  "attributes": [
+    {
+      "name": "[event]click",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "textClass",
+      "description": "- 按钮文本的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixIcon",
+      "description": "- 前置图标的名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixClass",
+      "description": "- 前置图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixIcon",
+      "description": "- 后置图标的名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "suffixClass",
+      "description": "- 后置图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingMode",
+      "description": "- 加载模式，可选值为 'draw'（默认）或其他自定义模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'draw'\r\n\t\t\t}"
+    },
+    {
+      "name": "loading",
+      "description": "- 是否显示加载中状态",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingIcon",
+      "description": "- 加载图标的名称",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'spinner'\r\n\t\t\t}"
+    },
+    {
+      "name": "loadingClass",
+      "description": "- 加载图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "prefixViewClass",
+      "description": "- 加载图标盒子",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "sufViewClass",
+      "description": "- 加载图标盒子",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "debounce",
+      "description": "- 是否开启防抖",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "throttle",
+      "description": "- 是否开启节流",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: false\r\n\t\t\t}"
+    },
+    {
+      "name": "tdTime",
+      "description": "- 防抖或节流时间，单位为毫秒",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 500\r\n\t\t\t}"
+    },
+    {
+      "name": "border",
+      "description": "- 是否显示边框",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "hover",
+      "description": "- 是否有鼠标悬停效果",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "iconHolder",
+      "description": "- 是否显示图标占位符",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "path",
+      "description": "- 跳转页面的路径",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "type",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'p'\r\n\t\t\t}"
+    }
+  ]
+}

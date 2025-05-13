@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "attributes": [
+    {
+      "name": "padding",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '32rpx'\r\n\t\t\t}"
+    },
+    {
+      "name": "background",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'rgba(0,0,0,.6)'\r\n\t\t\t}"
+    },
+    {
+      "name": "width",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 64\r\n\t\t\t}"
+    },
+    {
+      "name": "radius",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0\r\n\t\t\t}"
+    },
+    {
+      "name": "size",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 30\r\n\t\t\t}"
+    },
+    {
+      "name": "color",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '#fff'\r\n\t\t\t}"
+    },
+    {
+      "name": "position",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'center'\r\n\t\t\t}"
+    },
+    {
+      "name": "zIndex",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 1001\r\n\t\t\t}"
+    }
+  ]
+}

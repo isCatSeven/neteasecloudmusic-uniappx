@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "description": "二维码生成组件，用于生成和显示二维码，支持配置二维码模式。",
+  "attributes": [
+    {
+      "name": "mode",
+      "description": "二维码模式",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '1'\r\n\t\t\t}"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "description": "内嵌网页框架组件，用于在页面中嵌入另一个网页，支持配置源地址、宽度和高度。可不用全屏",
+  "attributes": [
+    {
+      "name": "[event]message",
+      "description": "",
+      "type": "Event"
+    },
+    {
+      "name": "src",
+      "description": "嵌入网页的源地址",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "width",
+      "description": "内嵌框架的宽度",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '750'\r\n\t\t\t}"
+    },
+    {
+      "name": "height",
+      "description": "内嵌框架的高度",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '450'\r\n\t\t\t}"
+    }
+  ]
+}

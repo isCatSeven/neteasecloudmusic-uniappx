@@ -1,0 +1,81 @@
+{
+  "name": "",
+  "description": "实现下拉刷新功能组件，支持自定义图标、文本和状态。",
+  "attributes": [
+    {
+      "name": "vertical",
+      "description": "- 控制下拉刷新的方向，默认为垂直方向",
+      "type": "{\r\n\t\t\t\ttype: Boolean,\r\n\t\t\t\tdefault: true\r\n\t\t\t}"
+    },
+    {
+      "name": "state",
+      "description": "- 表示当前刷新状态，默认为0",
+      "type": "{\r\n\t\t\t\ttype: Number,\r\n\t\t\t\tdefault: 0,\r\n\t\t\t}"
+    },
+    {
+      "name": "defaultIcon",
+      "description": "- 默认状态下的图标，默认为'arrow-down-circle'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-down-circle'\r\n\t\t\t}"
+    },
+    {
+      "name": "defaultIconClass",
+      "description": "- 默认图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "pullingIcon",
+      "description": "- 下拉状态下的图标，默认为'arrow-up-circle'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'arrow-up-circle'\r\n\t\t\t}"
+    },
+    {
+      "name": "pullingIconClass",
+      "description": "- 下拉图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingIcon",
+      "description": "- 刷新状态下的图标，默认为'spinner'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'spinner'\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingIconClass",
+      "description": "- 刷新图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingEndIcon",
+      "description": "- 刷新完成状态下的图标，默认为'checkbox-mark'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: 'checkbox-mark'\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingEndIconClass",
+      "description": "- 刷新完成图标的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    },
+    {
+      "name": "defaultText",
+      "description": "- 默认状态下的文本，默认为'继续下拉刷新'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '继续下拉刷新'\r\n\t\t\t}"
+    },
+    {
+      "name": "pullingText",
+      "description": "- 下拉状态下的文本，默认为'松开立即刷新'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '松开立即刷新'\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingText",
+      "description": "- 刷新状态下的文本，默认为'正在刷新'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '正在刷新'\r\n\t\t\t}"
+    },
+    {
+      "name": "refreshingEndText",
+      "description": "- 刷新完成状态下的文本，默认为'刷新成功'",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: '刷新成功'\r\n\t\t\t}"
+    },
+    {
+      "name": "textClass",
+      "description": "- 文本的额外类名",
+      "type": "{\r\n\t\t\t\ttype: String,\r\n\t\t\t\tdefault: ''\r\n\t\t\t}"
+    }
+  ]
+}
