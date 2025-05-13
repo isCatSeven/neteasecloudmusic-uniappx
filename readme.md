@@ -1,3 +1,100 @@
+# 网易云音乐
+
+基于 uni-app x 开发的网易云音乐客户端，使用 Vue 3 + UTS 开发。
+
+## 技术栈
+
+- 框架：uni-app x
+- 开发语言：UTS
+- UI框架：Vue 3
+- 状态管理：Vue 3 Composition API
+- 网络请求：uni.request
+
+## 功能特性
+
+- [x] 基础框架搭建
+- [x] 网络请求封装
+- [ ] 首页推荐
+- [ ] 歌单广场
+- [ ] 排行榜
+- [ ] 搜索功能
+- [ ] 播放器
+- [ ] 个人中心
+
+## 项目结构
+
+```
+├── config                 # 配置文件
+│   └── request           # 网络请求封装
+├── pages                 # 页面文件
+│   └── index            # 首页
+├── static               # 静态资源
+├── App.uvue            # 应用入口
+├── main.uts            # 主入口
+├── manifest.json       # 应用配置
+└── pages.json         # 页面配置
+```
+
+## 开发环境
+
+- HBuilderX 3.99+
+- Node.js 16+
+- 网易云音乐 API
+
+## 安装和运行
+
+1. 克隆项目
+```bash
+git clone [项目地址]
+```
+
+2. 安装依赖
+```bash
+npm install
+```
+
+3. 运行项目
+- 使用 HBuilderX 打开项目
+- 点击运行到浏览器或模拟器
+
+## API 接口
+
+项目使用 [NeteaseCloudMusicApi](http://neteasecloudmusicapi.catseven.site) 作为后端服务。
+
+## 开发规范
+
+1. 文件命名
+   - 页面文件使用 `.uvue` 后缀
+   - 工具类文件使用 `.uts` 后缀
+   - 组件文件使用 `.uvue` 后缀
+
+2. 代码风格
+   - 使用 TypeScript 类型声明
+   - 遵循 Vue 3 组合式 API 风格
+   - 使用 UTS 语法规范
+
+3. 目录结构
+   - 按功能模块划分目录
+   - 公共组件放在 components 目录
+   - 工具类放在 utils 目录
+
+## 贡献指南
+
+1. Fork 本仓库
+2. 创建你的特性分支 (git checkout -b feature/AmazingFeature)
+3. 提交你的改动 (git commit -m 'Add some AmazingFeature')
+4. 推送到分支 (git push origin feature/AmazingFeature)
+5. 打开一个 Pull Request
+
+## 许可证
+
+[MIT](LICENSE)
+
+## 联系方式
+
+- 作者：catseven
+- 邮箱：[你的邮箱]
+
 hello uni-app x 是 uni-app x 项目的演示工程。
 
 uni-app x [开发文档](https://uniapp.dcloud.net.cn/uni-app-x/)
